@@ -200,3 +200,21 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
+
+nav a:hover {
+    color: var(--md-sys-color-secondary);
+    text-decoration: underline;
+}
+nav a:active {
+    font-weight: bold;
+}
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+footer {
+    background-color: var(--md-sys-color-surface);
+    padding: 20px 0;
+    border-top: 1px solid var(--md-sys-color-outline);
+}
